@@ -1,6 +1,6 @@
 # Write your code here
 def line(katz_deli)
-if katz_deli.length == nil 
+if katz_deli.length =
   puts "The line is currently empty."
 end
    puts"The line is currently: "
