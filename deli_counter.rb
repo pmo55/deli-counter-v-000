@@ -7,7 +7,7 @@ if katz_deli.size ==0
 else puts"The line is currently: "
 katz_deli.each do|name|
   counter= 1
-  "#{counter}. #{name}"
+ puts  "#{counter}. #{name}"
   counter+=1
 end
 end
