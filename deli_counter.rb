@@ -6,7 +6,7 @@ else
    puts"The line is currently: "
    
 end
-katz_deli.each do|name|
+katz_deli.each do
   counter= 1
  print  "#{counter}. #{name}"
   counter+=1
