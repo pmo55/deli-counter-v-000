@@ -5,4 +5,9 @@ if katz_deli.empty?
 else
    puts"The line is currently: "
 end
+katz_deli.each do|name|
+  counter= 1
+ puts  "#{counter}. #{name}"
+  counter+=1
+end
 end
