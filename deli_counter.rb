@@ -3,7 +3,7 @@ def line(katz_deli)
 if katz_deli.empty?
   puts "The line is currently empty."
 else
-   message= "The line is currently: "
+   message= "The line is currently:"
    
 end
   katz_deli.each_with_index do |value, index|
