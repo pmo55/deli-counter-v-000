@@ -6,9 +6,7 @@ else
    puts"The line is currently: "
    
 end
-  counter= 1
-katz_deli.each do
- print  "#{counter}. #{name}"
-  counter+=1
+  katz_deli.each_with_index do |value, index|
+      puts " #{index.to_i+1}. #{value}"
 end
 end
