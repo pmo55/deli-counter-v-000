@@ -4,9 +4,9 @@ if katz_deli.empty?
   puts "The line is currently empty."
 else
    message= "The line is currently:"
+ end
   katz_deli.each_with_index do |value, index|
     message +=" #{index.to_i+1}. #{value}"
-end
 end
 puts message
 end
