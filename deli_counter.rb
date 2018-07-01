@@ -7,6 +7,6 @@ else
 puts"The line is currently: "
 katz_deli.each do
   counter= 1
-
+end
 end
 end
